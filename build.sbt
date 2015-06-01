@@ -42,6 +42,7 @@ libraryDependencies <++= (scalaVersion) { v: String =>
      "com.typesafe.akka"      %%  "akka-slf4j"        % akkaVersion,
      "io.spray"               %%  "spray-client"      % sprayVersion,
      "io.spray"               %%  "spray-json"        % "1.3.1",
+     "com.typesafe.play"      %%  "play-json"         % "2.3.8",
      "com.github.nscala-time" %%  "nscala-time"       % "1.6.0",
      "com.typesafe.akka"      %%  "akka-testkit"      % akkaVersion   % "test",
      "io.spray"               %%  "spray-testkit"     % sprayVersion  % "test",
